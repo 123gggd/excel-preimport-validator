@@ -1,0 +1,13 @@
+required_columns:
+  - Full Name
+  - Email
+
+column_types:
+  "Last Clean Date": date
+  "Invoice Amount (Brutto)": number
+
+dedupe_key_columns:
+  - Email
+
+allow_empty:
+  - "Invoice Amount (Brutto)"
